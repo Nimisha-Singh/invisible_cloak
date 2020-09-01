@@ -1,7 +1,7 @@
 import cv2
 import time
 import numpy as np
-
+#Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('output.avi', fourcc, 20.0, (640, 480))
 
